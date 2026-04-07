@@ -44,16 +44,43 @@
 	}
 
 	class Builders__s_Components {
-		static flash_card(front, back, start_side) {
+		static list_item(content_list) {
+
+		}
+
+		static bullet_list(item_list) {
+
+		}
+
+		static number_list(item_list) {
+
+		}
+
+		static flash_card(front_content_list, back_content_list, start_side) {
+
+		}
+
+		static flash_card_deck(flash_card_list) {
+
+		}
+
+		static nav_card(name, icon, on_click) {
+
+		}
+
+		static nav_card_deck(nav_card_list) {
 
 		}
 	}
 
 	class Components__e_ComponentType {
+		static __paragraph = Symbol();
 		static __list_item = Symbol();
 		static __bullet_list = Symbol();
 		static __number_list = Symbol();
+		static __flash_card = Symbol();
 		static __flash_card_deck = Symbol();
+		static __nav_card = Symbol();
 		static __nav_card_deck = Symbol();
 	}
 
